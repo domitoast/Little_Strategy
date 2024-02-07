@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: acc635fd4061e224f943aadbfa2668e5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goblin_rider_elite_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 120
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e4cb887957168458226f943c69fa46
+      internalID: -597644358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 120
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5813a22b638e912428564a661f780616
+      internalID: 233789444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 120
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d286cb99501883e42939ab0917004822
+      internalID: 528453127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 120
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b46b5b739436f43922f0d4495a3cc1
+      internalID: 169991197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 96
+        width: 21
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5018721, y: 0.5815669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a9ab81bbbad3b468ec8a22e0a68262
+      internalID: -775674941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 20
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5323615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac76ee1bae39d114a9f0c76c28529539
+      internalID: 737226344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96
+        width: 20
+        height: 16
+      alignment: 9
+      pivot: {x: 0.49136886, y: 0.56472397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5261ad287f734a99aa444117d2975
+      internalID: -89416503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 20
+        height: 15
+      alignment: 9
+      pivot: {x: 0.49999848, y: 0.5690384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f1134086e04674481b2b0d614b9bd0
+      internalID: -736050787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 73
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ab6aa5ae2c88b4280d64ee323b4271
+      internalID: -1009131949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 75
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaffbca8287c21d48a3a0e8ed1b41e10
+      internalID: 1329212021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 72
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac5eab95e4ec8a45bc8fd10124baa62
+      internalID: -434365051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 72
+        width: 20
+        height: 14
+      alignment: 9
+      pivot: {x: 0.49999923, y: 0.63561356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d56dea5a76e641a298d5e1698bab9
+      internalID: 477371395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 48
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.49249578, y: 0.6495855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945612183f816c348b874f19082046c6
+      internalID: -36503106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 48
+        width: 23
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4985413, y: 0.40270272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b26b2a808a7fc1438d5ec00260c2104
+      internalID: -412142742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 48
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49136886, y: 0.49136886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4416ecdd92aa847969a7bebe8bdf1a
+      internalID: 1091930218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 48
+        width: 22
+        height: 14
+      alignment: 9
+      pivot: {x: 0.4921542, y: 0.59862846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a7cec0557a63d41b34a7889ad0a0b8
+      internalID: 900541559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 48
+        width: 22
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5036108, y: 0.62563807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7e5e63c99729f4e990645f666a5142
+      internalID: -151186207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 48
+        width: 20
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5094795, y: 0.7191877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c627a84c9381a774485c86e17d6aee04
+      internalID: -19813994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 24
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6179fd0d85afecf4daf473db9b74abbc
+      internalID: 882117118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 24
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b345d415ca7f344abcefe173f8f7aa8
+      internalID: 2106619043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 24
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead1544de1838594fbc10d852171854d
+      internalID: -685228743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 24
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe5654409b253429bcd02870933d65
+      internalID: 1935506699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 21
+        height: 6
+      alignment: 9
+      pivot: {x: 0.49587512, y: 1.3931614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb6bf6af0fcd604cb0a3283d4863dbb
+      internalID: -819286914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 19
+        height: 12
+      alignment: 9
+      pivot: {x: 0.48176435, y: 0.6660249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a9a517c871dc34fa9718c26b3f0e49
+      internalID: 1839096898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f917fb87728e6df4bab185b97a289046
+      internalID: -456154012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca9e708ac0b82248a28f0a01361191c
+      internalID: -808179154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939d961a0da79dd45a2f688734181238
+      internalID: -1768256185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_rider_elite_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed183435a7499694e832b83a9a343cea
+      internalID: -456495821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      goblin_rider_elite_0: -597644358
+      goblin_rider_elite_1: 233789444
+      goblin_rider_elite_10: -434365051
+      goblin_rider_elite_11: 477371395
+      goblin_rider_elite_12: -36503106
+      goblin_rider_elite_13: -412142742
+      goblin_rider_elite_14: 1091930218
+      goblin_rider_elite_15: 900541559
+      goblin_rider_elite_16: -151186207
+      goblin_rider_elite_17: -19813994
+      goblin_rider_elite_18: 882117118
+      goblin_rider_elite_19: 2106619043
+      goblin_rider_elite_2: 528453127
+      goblin_rider_elite_20: -685228743
+      goblin_rider_elite_21: 1935506699
+      goblin_rider_elite_22: -819286914
+      goblin_rider_elite_23: 1839096898
+      goblin_rider_elite_24: -456154012
+      goblin_rider_elite_25: -808179154
+      goblin_rider_elite_26: -1768256185
+      goblin_rider_elite_27: -456495821
+      goblin_rider_elite_3: 169991197
+      goblin_rider_elite_4: -775674941
+      goblin_rider_elite_5: 737226344
+      goblin_rider_elite_6: -89416503
+      goblin_rider_elite_7: -736050787
+      goblin_rider_elite_8: -1009131949
+      goblin_rider_elite_9: 1329212021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

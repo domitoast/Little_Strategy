@@ -1,0 +1,1405 @@
+fileFormatVersion: 2
+guid: d4090ab5a706fbd418b04c4a14bab91e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon_tall_0
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 287
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a304bbca51dedc84ba987373e3e6223c
+      internalID: 1278224494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_1
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 287
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f64083e6b7574f81069bf8031aca7
+      internalID: -623756377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 287
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294e3004f5db5714696b482ddc3a30db
+      internalID: 1183944246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 287
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d55dfdbe5221748b00244eea810474
+      internalID: -368629036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 239
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6454f27a13d94d4da09a4ecd5da939c
+      internalID: 1081529461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_5
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 239
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da5a6fb5bdad57419404aef5d3492b3
+      internalID: 190284304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 239
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a2956eaed086449317b551df1cde6
+      internalID: -1426481667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_7
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 239
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92c73f860967c640a4a2def612dc44d
+      internalID: 767173367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 192
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd38ca50feae8954f886e4d535bbffc2
+      internalID: -1205089824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_9
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 192
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ae2a59a2b18884cb370ef2ae89954e
+      internalID: 1969067292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 192
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3490baf01c3274d8a3410c0eb6ed5e
+      internalID: 1884241710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 192
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e4b37c4366cc84391b47c945345ef9
+      internalID: -1732701924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 192
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb62620df4b9ba24eb694a1dadd918f6
+      internalID: 55067573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 191
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cac948d5351f33418b0aaea9d179d19
+      internalID: -561887404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 143
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406680517446ca7458684b18032ff076
+      internalID: -1023194214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 143
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed12db90337911d4d8b7b67136b44192
+      internalID: -1119989329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_16
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 143
+        width: 26
+        height: 35
+      alignment: 9
+      pivot: {x: 0.49528387, y: 0.44549343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb149335880444b4dae5dd08039d74dc
+      internalID: -855358950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 143
+        width: 16
+        height: 36
+      alignment: 9
+      pivot: {x: 0.50009155, y: 0.4377293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e40c526f2ddaff4bac67bb024bcc2b2
+      internalID: -844311440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_18
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 143
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49021694, y: 0.4206581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd7099254347e245a1c5d322f20eaba
+      internalID: -1921032952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_19
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 143
+        width: 21
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49021694, y: 0.42640516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2d95a5f7ddd7c458e75f96390b385b
+      internalID: -793516241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_20
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 143
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074b6bf9a620cf4abb67a60adfac820
+      internalID: 1054375499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_21
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 143
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831b99b99e3d7cc47903dd73c1e16519
+      internalID: 1799257470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a50135fb2f0160408015be083b696cd
+      internalID: 1939495931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_23
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 95
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b1d6bf5a5563745a6dc8202ff775a8
+      internalID: 812255155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 95
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39094353a72676e4ebc66364de536fe2
+      internalID: -382257338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fd80d1c4b3bbe43b24d91e7adbc914
+      internalID: -2035946021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 95
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0fe80dbd8551c4cb572f4051c16348
+      internalID: 30459097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 95
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5dcb25af7ef56499d5f0857539814b
+      internalID: 1295733670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_30
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 95
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0e6cb862d0a954ebbacd7bbc64f923
+      internalID: 162932590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 95
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167a554669485254ca51f48a6d6c3a4a
+      internalID: 167136289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 95
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e0537a665625348ac9553de401fca4
+      internalID: 1444643948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_33
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 95
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1988a396dc8fd024f90c2071072bc0cf
+      internalID: 1244434675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 95
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8200b1d9ea9d6d43ba085499e81bd8b
+      internalID: -2928187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_35
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 95
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b54a1de54c8ab428014880e78763a8
+      internalID: -1399497051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_36
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 95
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9c8e14cd7fce34e84a0add0c677d1e
+      internalID: 1192494385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 95
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04189f0630cad8744a162f9a0e9915d8
+      internalID: 1900226567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_38
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 95
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193d7b5fd72ceb64cad70d7e57369ec5
+      internalID: -819192215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_39
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 95
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b7d759c7e92da4b802428c57645d4c
+      internalID: -1109621168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_40
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 95
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91353c641df9afd44bbc127838ad8469
+      internalID: 1530118259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_41
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 95
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107cf8bb17917e4ba302d6751a744ef
+      internalID: 914372173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_42
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 95
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80980dfe7357b44478f23d19b371fb99
+      internalID: -147236865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_43
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 95
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd9544511dd514baab2f84f065b946
+      internalID: 2011318751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_44
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 47
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc1e6729e17344ba8b883e581cda7a
+      internalID: -1155370583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_45
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 47
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc7778e63a60e14ebd514358851a02b
+      internalID: -42450565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_46
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 47
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a336d790b00764f9204bdd48182b4a
+      internalID: -533324077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_47
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 47
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6d05905c8a7e24f907e79730f55c66
+      internalID: -2022380356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_48
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.43554178, y: 1.5878892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc5db0a11c3ffa4f992e55c3a858b7b
+      internalID: -968487345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_49
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 17
+        height: 12
+      alignment: 9
+      pivot: {x: 0.46728426, y: 1.3260736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df322b688d1e2cc4e8583a615272e337
+      internalID: 2071137538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_50
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.47351655, y: 0.96614814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fdb571f354e8643969680e5afe750a
+      internalID: 481429293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_51
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.48549804, y: 0.676001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff12e4b9e27217d45b1a34857b1ed1ae
+      internalID: -175730005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_52
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 18
+        height: 23
+      alignment: 9
+      pivot: {x: 0.48945448, y: 0.6743944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a0a7c45513054fb8a0e376b676f6b
+      internalID: 1878672987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_53
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4647506, y: 0.64339507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff3f3af3a294234081d2bd5964d2a83
+      internalID: 1751199673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_54
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.6971954, y: 0.50082606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd69cd29699d9a4cb08f469294c8ef8
+      internalID: 1718267826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_55
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.50000507, y: 0.54176044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27fb85406248df4bbae8e13724f0192
+      internalID: 228212683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_56
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 0
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.48558554, y: 0.53579444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815d32d70ae29c542aba1a10d9766701
+      internalID: 136329167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_57
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fa46564a4520243b3aae92f55c74cf
+      internalID: -892595279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_58
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997b0d88611ba334d91ab7dffa0b6d82
+      internalID: 526562701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_tall_59
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e8bba8da5330b4e95d023caa80ba7e
+      internalID: -1663827088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      demon_tall_0: 1278224494
+      demon_tall_1: -623756377
+      demon_tall_10: 1884241710
+      demon_tall_11: -1732701924
+      demon_tall_12: 55067573
+      demon_tall_13: -561887404
+      demon_tall_14: -1023194214
+      demon_tall_15: -1119989329
+      demon_tall_16: -855358950
+      demon_tall_17: -844311440
+      demon_tall_18: -1921032952
+      demon_tall_19: -793516241
+      demon_tall_2: 1183944246
+      demon_tall_20: 1054375499
+      demon_tall_21: 1799257470
+      demon_tall_22: 1939495931
+      demon_tall_23: 812255155
+      demon_tall_24: -1182888145
+      demon_tall_25: -382257338
+      demon_tall_26: 1907125386
+      demon_tall_27: -2035946021
+      demon_tall_28: 30459097
+      demon_tall_29: 1295733670
+      demon_tall_3: -368629036
+      demon_tall_30: 162932590
+      demon_tall_31: 167136289
+      demon_tall_32: 1444643948
+      demon_tall_33: 1244434675
+      demon_tall_34: -2928187
+      demon_tall_35: -1399497051
+      demon_tall_36: 1192494385
+      demon_tall_37: 1900226567
+      demon_tall_38: -819192215
+      demon_tall_39: -1109621168
+      demon_tall_4: 1081529461
+      demon_tall_40: 1530118259
+      demon_tall_41: 914372173
+      demon_tall_42: -147236865
+      demon_tall_43: 2011318751
+      demon_tall_44: -1155370583
+      demon_tall_45: -42450565
+      demon_tall_46: -533324077
+      demon_tall_47: -2022380356
+      demon_tall_48: -968487345
+      demon_tall_49: 2071137538
+      demon_tall_5: 190284304
+      demon_tall_50: 481429293
+      demon_tall_51: -175730005
+      demon_tall_52: 1878672987
+      demon_tall_53: 1751199673
+      demon_tall_54: 1718267826
+      demon_tall_55: 228212683
+      demon_tall_56: 136329167
+      demon_tall_57: -892595279
+      demon_tall_58: 526562701
+      demon_tall_59: -1663827088
+      demon_tall_6: -1426481667
+      demon_tall_7: 767173367
+      demon_tall_8: -1205089824
+      demon_tall_9: 1969067292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
