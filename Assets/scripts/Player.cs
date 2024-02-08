@@ -37,4 +37,7 @@ public class Player : MonoBehaviour
         cointext.text = "COINS: " + coins.ToString();
 
     }
+
+    
+
 }

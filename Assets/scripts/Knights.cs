@@ -6,9 +6,20 @@ public class Knights : MonoBehaviour
 {
     // Start is called before the first frame update
     public int HP = 100;
-    public int attack;
-    public float movespeed = 2f;
+    public int Damage;
+
+    public float speed=5f;
+    public float movespeed = 5f;
     public Animator animator;
+
+    public AudioSource audioSource;
+
+    public Transform attackpoint;
+    public LayerMask enemylayer;
+    public float attackrange = 0.5f;
+
+
+
     void Start()
     {
         
@@ -17,7 +28,7 @@ public class Knights : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(movespeed * Time.deltaTime, 0, 0);
+        transform.Translate(speed * Time.deltaTime, 0, 0);
         if (Input.GetKeyDown(KeyCode.Space)){
             takeDamage(20);
         }
@@ -28,33 +39,52 @@ public class Knights : MonoBehaviour
         HP-=damage;
         if (HP<=0){
             HP = 0;
-
-            animator.SetTrigger("die");
-            
+            animator.SetTrigger("die"); 
         }
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag=="enemy"){
+            speed = 0;
             animator.SetTrigger("attack");
         }
-        else if (other.gameObject.tag == gameObject.tag){
-            Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), other.collider);
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        // speed = movespeed;
+        if (other.gameObject.tag == "enemy"){
+            speed = movespeed;
+            animator.SetTrigger("run");
+        }
+        else{
+
         }
     }
+
+
 
     void Death(){
         Destroy(gameObject);
     }
+    void heatsound(){
+        audioSource.Play();
+    }
 
-    void fixdiePosition(){
-        transform.Translate(0, -1f, 0);
+    void Attack(){
+        Collider2D[] all_enemy = Physics2D.OverlapCircleAll(attackpoint.position, attackrange, enemylayer);
+        if (all_enemy != null){
+            foreach(Collider2D enemy in all_enemy){
+                Debug.Log(enemy.gameObject.name);
+                
+                // enemy.transform.GetComponent<Knights>().takeDamage(Damage);
+            }
+        }
     }
-    
-    void SetPivot(SpriteRenderer spriteRenderer, Vector2 pivot)
+    private void OnDrawGizmos()
     {
-        Vector3 offset = spriteRenderer.bounds.center - spriteRenderer.transform.position;
-        spriteRenderer.transform.position += new Vector3((pivot.x - 0.5f) * offset.x, (pivot.y - 0.5f) * offset.y, 0f);
+        Gizmos.DrawWireSphere(attackpoint.position, attackrange);
     }
+
 }
