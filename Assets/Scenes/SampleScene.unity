@@ -2355,6 +2355,11 @@ MonoBehaviour:
   hpbar: {fileID: 1098552292}
   coins: 0
   cointext: {fileID: 994171399}
+  knights:
+  - {fileID: 7192889090382538056, guid: 934f36fa5c1b50f44805beb13eaa48a2, type: 3}
+  - {fileID: 2096306608025731270, guid: d660f0983f554e14899416ee3ce2195a, type: 3}
+  - {fileID: 6014248668087789756, guid: e7c366c7ca17265419ca5cbd7daecc39, type: 3}
+  - {fileID: 2766375846033974612, guid: e42053a20e0a87140a96c84f56884b1b, type: 3}
 --- !u!1 &1273487630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 100
+  monsters: []
 --- !u!61 &1273487634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2770,10 +2776,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knight4
       objectReference: {fileID: 0}
-    - target: {fileID: 3298542718971070510, guid: e42053a20e0a87140a96c84f56884b1b, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7998518376833328319, guid: e42053a20e0a87140a96c84f56884b1b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.78
@@ -2831,17 +2833,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster4
       objectReference: {fileID: 0}
-    - target: {fileID: 6301331627966456133, guid: 191e52ec1aa808e4f9ed1bb85ee4ed47, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7773333955938012358, guid: 191e52ec1aa808e4f9ed1bb85ee4ed47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.03
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7773333955938012358, guid: 191e52ec1aa808e4f9ed1bb85ee4ed47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.48
+      value: -1.51
       objectReference: {fileID: 0}
     - target: {fileID: 7773333955938012358, guid: 191e52ec1aa808e4f9ed1bb85ee4ed47, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2937,10 +2935,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8959863916750411894, guid: 40ed8a83df6549f4d80a5e5fad95034b, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2965,11 +2959,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6667841445066166030, guid: e0d7a25d29134324ca472db044186550, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.54
+      value: -2.4481
       objectReference: {fileID: 0}
     - target: {fileID: 6667841445066166030, guid: e0d7a25d29134324ca472db044186550, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.34
+      value: -2.2719
       objectReference: {fileID: 0}
     - target: {fileID: 6667841445066166030, guid: e0d7a25d29134324ca472db044186550, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3003,10 +2997,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8713291021644193752, guid: e0d7a25d29134324ca472db044186550, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3025,17 +3015,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1273487632}
     m_Modifications:
-    - target: {fileID: 569098784122714393, guid: e2c41be4c06564f49ac7a2b3b0ca0af5, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 747552842958837546, guid: e2c41be4c06564f49ac7a2b3b0ca0af5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.55
+      value: -1.4811
       objectReference: {fileID: 0}
     - target: {fileID: 747552842958837546, guid: e2c41be4c06564f49ac7a2b3b0ca0af5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.19
+      value: -2.1405
       objectReference: {fileID: 0}
     - target: {fileID: 747552842958837546, guid: e2c41be4c06564f49ac7a2b3b0ca0af5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3091,10 +3077,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1139740004}
     m_Modifications:
-    - target: {fileID: 4651223639746828536, guid: e7c366c7ca17265419ca5cbd7daecc39, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6014248668087789756, guid: e7c366c7ca17265419ca5cbd7daecc39, type: 3}
       propertyPath: m_Name
       value: Knight3
@@ -3152,10 +3134,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1273487632}
     m_Modifications:
-    - target: {fileID: 1113065241015879438, guid: 54e695de9c5eae54594b14d0b076e138, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7756096861923805733, guid: 54e695de9c5eae54594b14d0b076e138, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1517
@@ -3262,10 +3240,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knight2
       objectReference: {fileID: 0}
-    - target: {fileID: 2991981031018497919, guid: d660f0983f554e14899416ee3ce2195a, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3317,10 +3291,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2649672981640841529, guid: 934f36fa5c1b50f44805beb13eaa48a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3356262807444620073, guid: 934f36fa5c1b50f44805beb13eaa48a2, type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7192889090382538056, guid: 934f36fa5c1b50f44805beb13eaa48a2, type: 3}

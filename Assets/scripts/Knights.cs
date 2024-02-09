@@ -6,7 +6,7 @@ public class Knights : MonoBehaviour
 {
     // Start is called before the first frame update
     public int HP = 100;
-    public int Damage;
+    public int attackDamage;
 
     public float speed=5f;
     public float movespeed = 5f;
@@ -35,7 +35,7 @@ public class Knights : MonoBehaviour
     }
 
 
-    void takeDamage(int damage){
+    public void takeDamage(int damage){
         HP-=damage;
         if (HP<=0){
             HP = 0;
@@ -49,18 +49,13 @@ public class Knights : MonoBehaviour
             speed = 0;
             animator.SetTrigger("attack");
         }
+
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        // speed = movespeed;
-        if (other.gameObject.tag == "enemy"){
-            speed = movespeed;
-            animator.SetTrigger("run");
-        }
-        else{
-
-        }
+        speed = movespeed;
+        animator.SetTrigger("run");
     }
 
 
@@ -78,7 +73,7 @@ public class Knights : MonoBehaviour
             foreach(Collider2D enemy in all_enemy){
                 Debug.Log(enemy.gameObject.name);
                 
-                // enemy.transform.GetComponent<Knights>().takeDamage(Damage);
+                enemy.GetComponent<Monster>().takeDamage(attackDamage);
             }
         }
     }

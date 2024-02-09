@@ -35,8 +35,28 @@ public class Player : MonoBehaviour
     void changecoin(int c){
         coins += c;
         cointext.text = "COINS: " + coins.ToString();
-
     }
+
+    public GameObject[] knights;
+    void createKnight1(){
+        GameObject g = Instantiate(knights[0], transform);
+        g.transform.position = new Vector3(-18f, -1.55f, 1.5f);
+         
+    }
+    void createKnight2(){
+        GameObject g = Instantiate(knights[1], transform);
+        g.transform.position = new Vector3(-18f, -1.28f, 1.5f);
+        
+    }
+    void createKnight3(){
+        GameObject g = Instantiate(knights[2], transform);
+        g.transform.position = new Vector3(-18f, -1.11f, 1.5f);
+    }
+    void createKnight4(){
+        GameObject g = Instantiate(knights[3], transform);
+        g.transform.position = new Vector3(-18f, -0.8f, 1.5f);
+    }
+
 
     
 

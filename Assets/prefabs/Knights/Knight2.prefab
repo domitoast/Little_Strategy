@@ -122,8 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7efc37a738cc93845bfb672549d2a35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 150
-  Damage: 0
+  HP: 175
+  attackDamage: 50
   speed: 5
   movespeed: 2
   animator: {fileID: 41337615881653680}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7377218113029005709}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: attackpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ Transform:
   m_GameObject: {fileID: 2991981031018497919}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81, y: -0.02, z: 0}
+  m_LocalPosition: {x: 0.95, y: -0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -7,7 +7,7 @@ public class Monster : MonoBehaviour
 {
     // Start is called before the first frame update
     public int HP = 100;
-    public int Damage = 5;
+    public int attackDamage = 5;
     public float speed=5f;
     public float movespeed = 5f;
     public Animator animator;
@@ -33,7 +33,7 @@ public class Monster : MonoBehaviour
     }
 
 
-    void takeDamage(int damage){
+    public void takeDamage(int damage){
         HP-=damage;
         if (HP<=0){
             HP = 0;
@@ -56,13 +56,8 @@ public class Monster : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.tag == "knight"){
-            speed = movespeed;
-            animator.SetTrigger("run");
-        }
-        else{
-            
-        }
+        speed = movespeed;
+        animator.SetTrigger("run");
     }
 
     void heatsound(){
@@ -74,7 +69,7 @@ public class Monster : MonoBehaviour
         if (all_enemy != null){
             foreach(Collider2D enemy in all_enemy){
                 Debug.Log(enemy.gameObject.name);
-                // enemy.transform.GetComponent<Monster>().takeDamage(this.Damage);
+                enemy.GetComponent<Knights>().takeDamage(attackDamage);
             }
         }
     }
