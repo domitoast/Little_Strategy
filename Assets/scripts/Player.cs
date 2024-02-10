@@ -38,21 +38,21 @@ public class Player : MonoBehaviour
     }
 
     public GameObject[] knights;
-    void createKnight1(){
+    public void createKnight1(){
         GameObject g = Instantiate(knights[0], transform);
         g.transform.position = new Vector3(-18f, -1.55f, 1.5f);
          
     }
-    void createKnight2(){
+    public void createKnight2(){
         GameObject g = Instantiate(knights[1], transform);
         g.transform.position = new Vector3(-18f, -1.28f, 1.5f);
         
     }
-    void createKnight3(){
+    public void createKnight3(){
         GameObject g = Instantiate(knights[2], transform);
         g.transform.position = new Vector3(-18f, -1.11f, 1.5f);
     }
-    void createKnight4(){
+    public void createKnight4(){
         GameObject g = Instantiate(knights[3], transform);
         g.transform.position = new Vector3(-18f, -0.8f, 1.5f);
     }
