@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Knights : MonoBehaviour
+public class Knights : MonoBehaviour, TakeDamage
 {
     // Start is called before the first frame update
     public int HP = 100;
@@ -17,7 +17,7 @@ public class Knights : MonoBehaviour
     public Transform attackpoint;
     public LayerMask enemylayer;
     public float attackrange = 0.5f;
-
+    
 
 
     void Start()
@@ -29,9 +29,7 @@ public class Knights : MonoBehaviour
     void Update()
     {
         transform.Translate(speed * Time.deltaTime, 0, 0);
-        if (Input.GetKeyDown(KeyCode.Space)){
-            takeDamage(20);
-        }
+        
     }
 
 
@@ -71,9 +69,9 @@ public class Knights : MonoBehaviour
         Collider2D[] all_enemy = Physics2D.OverlapCircleAll(attackpoint.position, attackrange, enemylayer);
         if (all_enemy != null){
             foreach(Collider2D enemy in all_enemy){
-                Debug.Log(enemy.gameObject.name);
+                TakeDamage tk = enemy.GetComponent<TakeDamage>();
                 
-                enemy.GetComponent<Monster>().takeDamage(attackDamage);
+                tk.takeDamage(attackDamage);
             }
         }
     }

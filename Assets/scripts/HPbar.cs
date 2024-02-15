@@ -17,7 +17,7 @@ public class HPbar : MonoBehaviour
 
     public void setValue(int health){
         slider.value = health;
-        Debug.Log(slider.value);
+        // Debug.Log(slider.value);
     }
 
 }

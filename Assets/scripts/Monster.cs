@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Monster : MonoBehaviour
+
+
+
+public class Monster : MonoBehaviour, TakeDamage
 {
     // Start is called before the first frame update
     public int HP = 100;
@@ -17,6 +20,10 @@ public class Monster : MonoBehaviour
     public Transform attackpoint;
     public LayerMask enemylayer;
     public float attackrange = 0.5f;
+
+    public GameObject player;
+
+    public int diemoney;
 
     void Start()
     {
@@ -52,6 +59,7 @@ public class Monster : MonoBehaviour
 
     void Death(){
         Destroy(gameObject);
+        player.GetComponent<Player>().coins+=diemoney;
     }
 
     void OnCollisionExit2D(Collision2D other)
@@ -68,8 +76,8 @@ public class Monster : MonoBehaviour
         Collider2D[] all_enemy = Physics2D.OverlapCircleAll(attackpoint.position, attackrange, enemylayer);
         if (all_enemy != null){
             foreach(Collider2D enemy in all_enemy){
-                Debug.Log(enemy.gameObject.name);
-                enemy.GetComponent<Knights>().takeDamage(attackDamage);
+                TakeDamage tk = enemy.GetComponent<TakeDamage>();
+                tk.takeDamage(attackDamage);
             }
         }
     }
