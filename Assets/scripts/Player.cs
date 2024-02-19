@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour, TakeDamage
 {
@@ -32,6 +33,7 @@ public class Player : MonoBehaviour, TakeDamage
         HP -= damage;
         if(HP<0){
             HP = 0;
+            Lose();
         }
         hpbar.setValue(HP);
     }
@@ -74,8 +76,20 @@ public class Player : MonoBehaviour, TakeDamage
         }
 
     }
+    public GameObject lose;
+    void Lose(){
+        Time.timeScale = 0;
+        lose.SetActive(true);
+    }
 
+    public void Restart(){
+        Time.timeScale = 1;
+        SceneManager.LoadScene("SampleScene");
+    }
 
+    public void Quit(){
+        Application.Quit();
+    } 
     
 
 }

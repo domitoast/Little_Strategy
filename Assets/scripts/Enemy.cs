@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour, TakeDamage
 {
     public int HP = 1000;
     float monsterchange = 0;
-    float timer = 0;
+    float timer = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +45,7 @@ public class Enemy : MonoBehaviour, TakeDamage
         HP -= damage;
         if(HP<0){
             HP = 0;
+            Lose();
         }
     }
 
@@ -77,6 +78,12 @@ public class Enemy : MonoBehaviour, TakeDamage
         GameObject g = Instantiate(monsters[4], transform);
         g.SetActive(true);
         g.transform.position = new Vector3(21f, -0.65f, 1.5f);
+    }
+
+    public GameObject lose;
+    void Lose(){
+        Time.timeScale = 0;
+        lose.SetActive(true);
     }
 
 }
